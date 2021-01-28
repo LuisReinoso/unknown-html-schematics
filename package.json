@@ -1,0 +1,31 @@
+{
+  "name": "unknown-html-schematics",
+  "version": "0.0.1",
+  "description": "This angular schematics fix - unknown HTML element or component - common angular error",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics", "angular", "unknown-html-schematics"
+  ],
+  "author": "LuisReinoso <lomejordejr@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisReinoso/unknown-html-schematics.git"
+  },
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "11.1.1",
+    "@angular-devkit/schematics": "11.1.1",
+    "@schematics/angular": "11.1.1",
+    "ng-schematics-helpers": "0.0.5",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "@types/jasmine": "~3.5.0",
+    "jasmine": "^3.5.0"
+  }
+}

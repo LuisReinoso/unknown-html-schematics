@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "fix": {
+      "description": "Fix unknown HTML element or component error",
+      "factory": "./unknown-html-schematics/index#fix"
+    }
+  }
+}
